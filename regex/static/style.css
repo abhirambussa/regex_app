@@ -1,0 +1,63 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    background-color: #f0f0f0; /* Light gray background for the entire body */
+}
+
+h1 {
+    color: white; /* White text color */
+    text-align: center; /* Center-align the text */
+    padding: 20px; /* Add padding for better visibility */
+    background-color: #3498db; /* Deep blue background for the title */
+}
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+h2 {
+    color: #333;
+    margin-top: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #d4edda; /* Light green background for each result item */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #155724; /* Dark green text color */
+}
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
